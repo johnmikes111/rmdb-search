@@ -7,7 +7,7 @@ import NotFound from '../elements/NotFound/NotFound';
 
 const App = () => {
     return (
-        <BrowserRouter basename="rmdb-search">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <React.Fragment> 
                 <Header />
                 <Switch>
